@@ -5,10 +5,10 @@ document.getElementById("center").style.height = window.innerHeight - document.g
 var heightstuff = window.innerHeight*8/100
 document.getElementsByClassName("form")[0].style.height = heightstuff + "px";
 document.getElementsByClassName("form")[1].style.height = heightstuff + "px";
-document.getElementsByClassName("form")[2].style.height = heightstuff + "px";
+document.getElementsByClassName("form")[2].style.height = heightstuff-(heightstuff/10) + "px";
 
 document.getElementsByClassName("form")[0].style.fontSize = (heightstuff/2.5) + "px";
 document.getElementsByClassName("form")[1].style.fontSize = (heightstuff/2.5) + "px";
 document.getElementsByClassName("form")[2].style.fontSize = (heightstuff/2.5) + "px";
-	
+
 }

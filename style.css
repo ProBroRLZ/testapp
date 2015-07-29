@@ -27,11 +27,11 @@ input[type="text"] {
 	border-radius:20px;
 	text-align:center;
 	font-size: 60px;
-	height:75%;
+	height:125px;
 	color: #1D69B0;
 	border: solid #1D69B0 5px;
 	background: #fff;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 input[type="password"] {
@@ -39,11 +39,11 @@ input[type="password"] {
 	border-radius:20px;
 	text-align:center;
 	font-size: 60px;
-	height:75%;
+	height:125px;
 	color: #1D69B0;
 	border: solid #1D69B0 5px;
 	background: ;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 input::-webkit-input-placeholder {
@@ -67,8 +67,10 @@ input[type="submit"]{
 	width: 80%;
 	height:125px;
 	font-size: 60px;
-	font-weight: 900;
+	font-weight: 700;
 	background: radial-gradient(circle, #82E010, #4DCA1D);
 	border: 0;
 	border-radius: 20px;
 }
+
+input:focus {outline: none; }
