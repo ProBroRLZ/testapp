@@ -49,5 +49,13 @@ body{
 #cont{
 
     font-family:play;
-    font-size:60px;
+    font-size:50px;
+    border-collapse:collapse;
+}
+#cont td:first-child{padding-left:20px;}
+#cont td{padding-top: 20px;padding-bottom: 20px;
+}
+#cont td.bord { border-bottom: 4px solid #888; }
+#titles{
+    border-collapse:collapse;
 }
