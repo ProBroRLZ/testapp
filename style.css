@@ -32,6 +32,7 @@ input[type="text"] {
 	border: solid #1D69B0 5px;
 	background: #fff;
 	font-weight: 700;
+    -webkit-transform: all 0.5s ease-in-out;
 }
 
 input[type="password"] {
@@ -44,6 +45,7 @@ input[type="password"] {
 	border: solid #1D69B0 5px;
 	background: ;
 	font-weight: 700;
+    -webkit-transform: all 0.5s ease-in-out;
 }
 
 input::-webkit-input-placeholder {
@@ -74,3 +76,7 @@ input[type="submit"]{
 }
 
 input:focus {outline: none; }
+
+.required{
+    box-shadow: 0px 0px 20px 3px #f00;
+}
