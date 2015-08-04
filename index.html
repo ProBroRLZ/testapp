@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=0.3, maximum-scale=0.3, user-scalable=no" />
+		<title>Legacy School Bangalore App</title>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<div id="content">
+			<img src="img/logofull.png" id="logofull"/>
+			<table id="center">
+				<form id="login" name="login"   onsubmit="return formload()" >
+					<tr>
+						<td height="17%">
+						</td>
+					</tr>
+					<tr>
+						<td align="center" height="20%">
+							<input type="text" class="form" name="user" placeholder="USERNAME"/>
+                        </td>
+					</tr>
+					<tr>
+						<td align="center" height="15%">
+                            <input type="password" class="form" name="password" placeholder="PASSWORD"/>
+                        </td>
+					</tr>
+					<tr>
+						<td align="center">
+							<input type="submit" class="form" id="button" value="LOGIN"/>
+                        </td>
+					</tr>
+				</form>
+			</table>
+		</div>
+	</body>
+	<script>
+    
+    function formload(){
+        var user = document.forms['login']['user'];
+        var pass = document.forms['login']['password'];
+        if (user.value === ""){
+            alert("Enter a username and a password!!!!");
+            user.classList.add("required");
+            user.classList.remove("required");
+            user.classList.add("required");
+        }
+        if (pass.value === ""){
+            alert("Enter a username and a password!!!!");
+            pass.classList.add("required");
+            pass.classList.remove("required");
+            pass.classList.add("required");
+        }
+        
+        return false;
+}
+
+    </script>
+	<script src="logosize.js"></script>
+	<script src="radius.js"></script>
+</html>

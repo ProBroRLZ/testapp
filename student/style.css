@@ -1,0 +1,53 @@
+@font-face{
+   font-family: Play;
+   src: url("../play.ttf");
+}
+
+@font-face{
+    font-family: Play;
+    src: url("../playbold.ttf");
+    font-weight: bold;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+		background:  #fff6f6;
+}
+
+#content{
+	width: 100%;
+
+}
+
+#logo{
+	width:100%;
+	padding: 1.5%;
+}
+
+#title{
+	font-size:80px;
+    font-family: Comic Sans MS;
+	font-family:Play;
+}
+
+#header{
+    position: fixed;
+    background: #fff6f6;
+    display: block;
+    z-index:10000000000000000000000000;
+    box-shadow: 0px 0px 0px  0px #555;
+    transition: box-shadow 0.2s ease-in-out;
+    margin:0;
+}
+#header.scroll{
+    box-shadow: 0px 40px 100px 0px #555;
+}
+
+#spacer{height:20px;}
+
+#cont{
+
+    font-family:play;
+    font-size:60px;
+}
